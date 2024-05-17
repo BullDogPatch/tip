@@ -1,14 +1,9 @@
-import BillInput from './components/Bill-Input';
-import './App.css';
-import MeSatisfied from './components/MeSatisfied';
-import FriendSatisfied from './components/FriendSatisfied';
+import TipContent from './components/TipContent';
 
 function App() {
   return (
-    <div>
-      <BillInput />
-      <MeSatisfied />
-      <FriendSatisfied />
+    <div className='app'>
+      <TipContent />
     </div>
   );
 }
