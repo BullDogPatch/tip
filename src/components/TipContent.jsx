@@ -35,12 +35,14 @@ function TipContent() {
         How did your firend like it?
       </Percentages>
       {billInput ? (
-        <Output
-          tip={tip}
-          billInput={billInput}
-        />
+        <>
+          <Output
+            tip={tip}
+            billInput={billInput}
+          />
+          <ResetButton handleReset={handleReset} />
+        </>
       ) : null}
-      <ResetButton handleReset={handleReset} />
     </div>
   );
 }
